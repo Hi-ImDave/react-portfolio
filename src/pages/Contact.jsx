@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import { toast } from 'react-toastify'
 
-const SERVICE_ID = process.env.SERVICE_ID
-const TEMPLATE_ID = process.env.TEMPLATE_ID
-const USER_ID = process.env.USER_ID
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID
+const USER_ID = process.env.REACT_APP_USER_ID
 
 const Contact = () => {
   const form = useRef()
@@ -14,22 +14,15 @@ const Contact = () => {
 
   const onSubmit = (e) => {
     e.preventDefault()
-    emailjs
-      .sendForm(
-        'service_dfr1s9m',
-        'template_a1m7x7p',
-        form.current,
-        'gWL3NnGH29J2ZjPAB'
-      )
-      .then(
-        (result) => {
-          toast.success('Email was sent')
-          navigate('/')
-        },
-        (error) => {
-          toast.error('Oops! Something went wrong')
-        }
-      )
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID).then(
+      (result) => {
+        toast.success('Email was sent')
+        navigate('/')
+      },
+      (error) => {
+        toast.error('Oops! Something went wrong')
+      }
+    )
   }
 
   return (
