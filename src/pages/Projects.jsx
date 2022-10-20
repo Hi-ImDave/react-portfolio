@@ -40,7 +40,7 @@ const Projects = () => {
         title='NASA Photo Finder'
         explanation={hsoExplanation}
         repoLink='https://github.com/Hi-ImDave/hso-react'
-        webLink='https://hso-react-dmottdev.netlify.app/'
+        webLink='https://hso-react.vercel.app/'
         projectImg={hsoIMG}
       />
       <ProjectCard
@@ -54,7 +54,7 @@ const Projects = () => {
         title='House Marketplace App'
         explanation={marketplaceExplanation}
         repoLink='https://github.com/Hi-ImDave/house-marketplace-app'
-        webLink='https://github.com/Hi-ImDave/house-marketplace-app'
+        webLink='https://house-marketplace-pied-nine.vercel.app/'
         projectImg={marketplaceIMG}
       />
     </div>
