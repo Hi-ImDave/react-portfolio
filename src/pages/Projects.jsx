@@ -26,7 +26,7 @@ const Projects = () => {
         title='Github Finder'
         explanation={gitFinderExplanation}
         repoLink='https://github.com/Hi-ImDave/gitHub-finder'
-        webLink='https://github-finder-dmottdev.netlify.app/'
+        webLink='https://github-finder-sepia-three.vercel.app/'
         projectImg={gitHubFinderIMG}
       />
       <ProjectCard
