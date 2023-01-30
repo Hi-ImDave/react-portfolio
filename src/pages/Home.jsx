@@ -34,7 +34,9 @@ const Home = () => {
               I'm a self-taught software engineer with a passion for User
               Interface design and problem-solving. Proficient in HTML, CSS,
               JavaScript, React, Node, MongoDB, and Express, I excel at
-              developing elegant solutions for complex challenges.
+              developing elegant solutions for complex challenges. Check out my
+              portfolio to see some of my work and feel free to contact me for
+              any potential projects or collaboration opportunities.
             </p>
           </div>
         </div>
