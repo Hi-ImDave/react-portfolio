@@ -31,10 +31,10 @@ const Home = () => {
           <div>
             <h3 className='text-xl font-bold'>About Me</h3>
             <p className='py-6'>
-              I'm a community taught software engineer with a deep interest in
-              User Interface design and troubleshooting. I'm skilled in solving
-              problems with HTML, CSS, JavaScript, React, Node, MongoDB, and
-              Express.
+              I'm a self-taught software engineer with a passion for User
+              Interface design and problem-solving. Proficient in HTML, CSS,
+              JavaScript, React, Node, MongoDB, and Express, I excel at
+              developing elegant solutions for complex challenges.
             </p>
           </div>
         </div>
